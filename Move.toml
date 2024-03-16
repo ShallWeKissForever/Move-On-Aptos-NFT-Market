@@ -1,0 +1,20 @@
+[package]
+name = "mynft"
+version = "1.0.0"
+authors = []
+
+[addresses]
+nftmarket = "0x53ab98d640394dbf602fa4fc2cd8b0602ef826e1f78f41a1a3eab0630b62215b"
+[dev-addresses]
+
+[dependencies.AptosTokenObjects]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-token-objects"
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
